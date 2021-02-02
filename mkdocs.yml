@@ -15,7 +15,7 @@ repo_url: https://github.com/46265z/pybrain
 
 # Configuration
 theme:
-  name: material  
+  name: material
 
   # 404 page
   static_templates:
@@ -80,6 +80,17 @@ extra:
     # - icon: fontawesome/brands/instagram
     #   link: https://instagram.com/squidfunk
 
+  # alternate:
+
+  #   # Switch to English
+  #   - name: English
+  #     link: https://46265z.github.io/pybrain/en/
+  #     lang: en
+
+  #   - name: Bulgarian
+  #     link: https://46265z.github.io/pybrain/bg/
+  #     lang: bg
+
 # Extensions
 markdown_extensions:
   - admonition
@@ -91,6 +102,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      # slugify: !!python/name:pymdownx.slugs.uslugify
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
