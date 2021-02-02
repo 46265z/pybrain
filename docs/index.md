@@ -1,12 +1,10 @@
 # Welcome to MkDocs
 
-
-<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
-## Проблем
+## Problem
 
 * Long execution time
 
-## Цели
+## Tasks
 
 * Тo minimize CPU time needed (ideally);
 * To check the execution time of a given command or set of commands;
